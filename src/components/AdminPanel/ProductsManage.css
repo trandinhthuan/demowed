@@ -1,0 +1,36 @@
+.add_products{
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.add_products label{
+    margin:0 40px;
+}
+
+.delete_products{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.delete_products label{
+    margin: 0 20px;
+}
+.list_item li{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20 40px;
+    background-color: beige;
+    border: 5px solid white;
+}
+
+.delete_products button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dailyDeal {
+  margin-bottom: 50px !important;
+  margin: auto;
+  height: auto;
+  width: 80vw;
+  background-color: #ffbf59;
+}
+
+.dealTitle {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: "Noto Serif", serif;
+}
+
+.dealItem {
+  height: 450px;
+  display: flex !important;
+  padding: 20px;
+  border: 10px solid #ffbf59;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.dealImg {
+  height: 200px;
+  width: 200px;
+}
+
+.dealItem img {
+  border-radius: 15px;
+  padding: -20px;
+  background-color: white;
+}
+
+.itemInfo {
+  height: auto;
+  width: 100%;
+}
+
+.itemInfo span {
+  text-decoration: line-through;
+}
+.itemInfo h4 {
+  font-size: 16px;
+  /* margin: 10px; */
+}
+.itemInfo h6 {
+  font-size: 16px;
+  color: red;
+}
+.itemImg {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  gap: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.itemImg img {
+  /* margin-top: 10px; */
+  width: 40px;
+  height: 40px;
+}
+
+.productDealList {
+  gap: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.productDealItem img {
+  width: 324px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.action button{
+  padding: 0px 10px;
+  margin: 0px 10px;
+  color: white;
+  background-color: #ffbf59;
+  border-radius: 5px;
+}

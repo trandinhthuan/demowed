@@ -1,0 +1,29 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+
+.slideshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slideshow img {
+  width: 100%;
+  height: auto;
+}
+.slideshow__arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  color: #636e72;
+  visibility: hidden;
+  position: absolute;
+  margin: 0 20px ;
+}
+.arrow_right{
+right: 0;
+}
+.slideshow:hover .slideshow__arrow {
+  visibility: visible;
+}

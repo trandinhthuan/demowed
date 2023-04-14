@@ -1,0 +1,22 @@
+
+.text-background {
+  height: 25px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.running-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: running-text 20s linear infinite;
+  color: white;
+}
+
+@keyframes running-text {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
